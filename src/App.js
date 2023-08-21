@@ -119,7 +119,7 @@ class App extends Component {
             />
           </div>
         </div>
-        {searchList.length > 0 ? (
+        {searchList.length !== 0 ? (
           <ul className="list">
             {searchResult.map(each => (
               <HistorySearch
