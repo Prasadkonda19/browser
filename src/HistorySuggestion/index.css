@@ -1,0 +1,18 @@
+.history {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.listType {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.part {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
